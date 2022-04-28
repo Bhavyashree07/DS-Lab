@@ -1,11 +1,10 @@
 #include<iostream>
-#include<conio.h>
+#include<conio.h>   
 #include<stdlib.h>
 using namespace std;
  int cost[10][10],qu[10],front,rare,visit[10],visited[10];
 int main()
 {
-
    int m,n,j,i,v,k;
     cout <<"Enter no of vertices:";
     cin >> n;
